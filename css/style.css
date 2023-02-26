@@ -1,0 +1,103 @@
+header {
+			background-color: #777; /* warna latar belakang header */
+			height: 30px; /* tinggi header */
+			padding: 20px; /* jarak antara konten header dengan tepi header */
+			margin-bottom: 20px; /* jarak antara header dengan konten utama */
+			display: flex;
+			align-items: center;
+			justify-content: left;
+		}
+
+		/* CSS untuk judul header */
+		header h1 {
+			color: #fff; /* warna teks */
+			font-size: 40px; /* ukuran teks */
+			margin: 0; /* hilangkan margin default */
+		}
+
+header img {
+	height: 50px;
+	margin-right: 20px;
+}
+
+#scroll-up {
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: #FF0033;
+			color: #fff;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 50%;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+		}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+	background-color: #CCC;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 2px solid #ccc
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 30px;
+}
+
+input[type="submit"]: hover,
+input[type="reset"]:hover {
+	background-color: #3300FF;
+}
+
+table {
+  border: 1px solid black;
+  background-color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  width: 60%;
+  height: 40%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
